@@ -30,7 +30,8 @@
         "semantic-release": "semantic-release",
         "test": "yarn run format && yarn run test:jest",
         "test:jest": "jest ./src/*.js",
-        "prettier": "prettier './**/*.{js,d.ts,js.flow,yml}'"
+        "prettier": "prettier './**/*.{js,d.ts,js.flow,yml}'",
+        "postinstall": "yarn prepare"
     },
     "config": {
         "commitizen": {
